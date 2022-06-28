@@ -18,7 +18,7 @@ export default class ExpBar extends Component {
 }
 
 function createExpBox(job, period, org, desc, advisor) {
-    return <div class="box">
+    return <div className="box">
         <div className="date-text">{period}</div>
         <h3>{job}</h3>
         <div className="side-text">{(org == null ? "Self-Employed" : org)}</div>

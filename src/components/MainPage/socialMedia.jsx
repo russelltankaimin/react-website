@@ -1,6 +1,8 @@
 import { Component } from "react";
 import "./russellcambridge.jpeg";
 import "./sns.css"
+import "./exp.css"
+import WhatIsRussellLearning from "./LearningHeader";
 export default class SocialMediaSites extends Component {
     render() {
         return <span className="next">
@@ -14,6 +16,9 @@ export default class SocialMediaSites extends Component {
                 <p>linkedin : 
                     <a href="https://www.linkedin.com/in/tan-kai-min-russell-b23751128"> Tan Kai Min, Russell</a>
                 </p>
+            </div>
+            <div>
+                <WhatIsRussellLearning></WhatIsRussellLearning> 
             </div>
         </span>;
     }

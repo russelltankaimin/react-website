@@ -9,6 +9,11 @@
 
 }
 
+.spacer {
+    margin: 5px;
+    padding : 15px;
+}
+
 .nextp {
     padding : 5px;
 }
