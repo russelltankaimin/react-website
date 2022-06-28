@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.next {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nextp {
+    padding : 5px;
+}
